@@ -1,0 +1,272 @@
+@font-face {
+    font-family: poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+body{
+    background-image: url(Images/welcome\ image.jpg) ; 
+    
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: poppins;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   
+   
+    
+}
+#dot{
+    position: absolute;
+    overflow: visible;
+    margin-left: -1;
+    margin-top: -41.5%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height:1470px;
+    text-align: center;
+}
+.ankolelogo_contacts{
+    margin-top: -17cm;
+    margin-left: 23cm;
+}
+.ankolelogo_contacts img{
+    height: 30vh;
+}
+.contacts_address{
+    position: relative;
+    display: flex;
+    margin-top: 5cm;
+    margin-left: 11cm;
+    font-size: 100%;
+}
+.kitisiru_address{
+    color: white;
+    position: relative;
+    border: solid 2px rgb(255, 255, 255);
+    width: 20vw;
+    height: 42vh;
+    padding: 1cm;
+    
+}
+.kitisiru_address a{
+    text-decoration: none;
+    color: white;
+    
+}
+.kilimani_address{
+    color: white;
+    border: solid 2px rgb(255, 255, 255);
+    margin-left: 6cm;
+    width: 20vw;
+    margin-top: -1cm;
+    padding: 1cm;
+}
+.kilimani_address a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    border: solid 2px;
+    margin-top: 11cm;
+    gap: 1cm;
+    margin-left: 18cm;
+    background-color: black;
+    height: 2cm;
+    width: 25cm;
+    border-radius: 1cm;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding-top: 2.5%;
+    padding-left: 2%;
+}
+
+.navigation a:hover {
+    color: grey;
+}
+
+#timeicon {
+    position: relative;
+
+}
+
+.reservationsnav {
+    padding: 2% 2% 2% 0%;
+    border: solid 2px;
+    background-color: grey;
+    width: 4cm;
+    border-radius: 1cm;
+    height: 0.7cm;
+   
+}
+
+.reservationsnav:hover {
+    background-color: white;
+    color: black;
+}
+
+.reservationsnav a {
+    margin-left: 0.7cm;
+
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials {
+    position: absolute;
+    color: white;
+    margin-left: 47cm;
+    margin-top: -6cm;
+}
+
+.whatsappicon {
+    position: absolute;
+    color: white;
+    border: solid 1px;
+    background-color: white;
+    margin-top: 11cm;
+    margin-left: 47cm;
+    border-radius: 50%;
+}
+
+.hover_up {
+    position: relative;
+    display: block;
+    margin-top: 2.5%;
+
+}
+
+.hover_up-content {
+    display: inline-block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    padding: 2%;
+    border: none;
+    width: 900%;
+    border-radius: 20px;
+    z-index: 1;
+    display: none;
+    top: -950%;
+
+}
+
+.hover_up:hover .hover_up-content {
+    display: block;
+} 
+@media only screen and (max-width: 430px) {
+    body{
+        background-image: url(Images/welcome\ image.jpg) ; 
+        
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+        font-family: poppins;
+        overflow-y: hidden;
+        overflow-x: hidden;
+       
+       
+        
+    }
+    #dot{
+        position: absolute;
+        overflow: visible;
+        margin-left: -1;
+        margin-top: -41.5%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+        height:1470px;
+        text-align: center;
+    }
+    .ankolelogo_contacts{
+        margin-top: -17cm;
+        margin-left: 2cm;
+    }
+    .ankolelogo_contacts img{
+        height: 30vh;
+        margin-top: -10cm;
+    }
+    .contacts_address{
+        position: relative;
+        display: flex;
+        margin-top: 3cm;
+        margin-left: 1cm;
+        font-size: 60%;
+    }
+    .kitisiru_address{
+        color: white;
+        position: relative;
+        border: solid 2px rgb(255, 255, 255);
+        width: 20vw;
+        height: 35vh;
+        padding: 1cm;
+        
+    }
+    .kitisiru_address a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    .kilimani_address{
+        color: white;
+        border: solid 2px rgb(255, 255, 255);
+        margin-left: 1cm;
+        width: 20vw;
+        margin-top: -1cm;
+        padding: 1cm;
+    }
+    .kilimani_address a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    .navigation {
+        position: absolute;
+        display: flex;
+        border: solid 2px;
+        margin-top: 19cm;
+        gap: 0cm;
+        margin-left: -0cm;
+        background-color: black;
+        height: 2cm;
+        width: 12cm;
+        border-radius: 1cm;
+        font-size: 60%;
+    }
+
+    #dot{
+        position: absolute;
+        overflow: visible;
+        margin-left: -1;
+        margin-top: -41.5%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+        height:1000px;
+        text-align: center;
+    }
+
+
+.whatsappicon {
+    position: absolute;
+    color: white;
+    border: solid 1px;
+    background-color: white;
+    margin-top: 17cm;
+    margin-left: 9cm;
+    border-radius: 50%;
+}
+}  

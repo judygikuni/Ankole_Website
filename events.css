@@ -1,0 +1,553 @@
+@font-face {
+    font-family: poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+body{
+   font-family: poppins; 
+   font-size: 120%;
+   overflow: hidden;
+}
+.pavilion{
+    display: flex;
+}
+.accra_pavilion{ 
+    text-align: center;
+    
+}
+.accra_pavilion img{
+    height: 100vh;
+    width: 33.3vw;
+}
+.decor_text{
+    position: absolute;
+    margin-top: -15cm;
+    color: white;
+    margin-left: 3cm;
+    cursor: pointer;
+}
+#decor_pax{
+    color: orange;
+}
+#pavilion{
+    color: grey;
+}
+.nairobi_pavilion{ 
+    text-align: center;
+   
+}
+.nairobi_pavilion img{
+    height: 100vh;
+    width: 33.3vw;
+}
+.zanzibar_pavilion{
+    
+    
+    width: 33.3vw;
+    background-repeat: no-repeat;
+    text-align: center;
+  
+    /* color: white; */
+}
+.zanzibar_pavilion img{
+    height: 100vh;
+    width: 33.3vw;
+   
+    /* margin-left: -8.1cm; */
+}
+#dot{
+    position: absolute;
+    overflow: visible;
+    margin-left: -1;
+    margin-top: -41.5%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height:1660px;
+    text-align: center;
+}
+.logoimage{
+    margin-left: -27cm;
+    margin-top: 2cm;
+}
+.logoimage img{
+    height: 20vh;
+}
+.navigation {
+    position: absolute;
+    display: flex;
+    border: solid 2px;
+    margin-top: -3cm;
+    gap: 0.8cm;
+    margin-left: 18cm;
+    background-color: black;
+    height: 2cm;
+    width: 25cm;
+    border-radius: 1cm;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding-top: 2.5%;
+    padding-left: 2%;
+}
+
+.navigation a:hover {
+    color: grey;
+}
+
+#timeicon {
+    position: relative;
+
+}
+
+.reservationsnav {
+    padding: 2% 2% 2% 0%;
+    border: solid 2px;
+    background-color: grey;
+    width: 4cm;
+    border-radius: 1cm;
+    height: 0.7cm;
+   
+}
+
+.reservationsnav:hover {
+    background-color: white;
+    color: black;
+}
+
+.reservationsnav a {
+    margin-left: 0.2cm;
+    margin-top: -1cm ;
+
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials {
+    position: absolute;
+    color: white;
+    margin-left: 46cm;
+    margin-top: -21cm;
+}
+
+.whatsappicon {
+    position: absolute;
+    color: white;
+    border: solid 1px;
+    background-color: white;
+    margin-top: -3cm;
+    margin-left: 47cm;
+    border-radius: 50%;
+}
+
+.hover_up {
+    position: relative;
+    display: block;
+    margin-top: 2.5%;
+
+}
+
+.hover_up-content {
+    display: inline-block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    padding: 2%;
+    border: none;
+    width: 900%;
+    border-radius: 20px;
+    z-index: 1;
+    display: none;
+    top: -1200%;
+
+}
+
+.hover_up:hover .hover_up-content {
+    display: block;
+}
+
+@media only screen and (max-width: 430px) {
+   body{
+    overflow:inherit;
+    margin-bottom: 0%;
+   }
+    .pavilion{
+        flex-direction: column;
+    }
+   .pavilion img{
+    width:100vw;
+    height:70vh;
+   }
+   #dot{
+    height:231vh
+   }
+   .logoimage{
+    margin-top: -17cm;
+    height: 10vh;
+
+   }
+   .navigation {
+    position: absolute;
+    display: flex;
+   
+    border: solid 2px;
+    margin-top: -23cm;
+    gap: 0cm;
+    margin-left: 1cm;
+    background-color: black;
+    height: 1.5cm;
+    width: 9.5cm;
+    border-radius: 1cm;
+    font-size: 50%;
+    /* position: fixed; */
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding-top: 2.5%;
+    padding-left: 2%;
+}
+
+.navigation a:hover {
+    color: grey;
+}
+
+#timeicon {
+    position: relative;
+
+}
+
+.reservationsnav {
+    padding-top: 2.5%;
+    border: solid 2px;
+    background-color: grey;
+    width: 4cm;
+    border-radius: 1cm;
+    height: 0.7cm;
+    margin-top: 0.2cm;
+}
+
+.reservationsnav:hover {
+    background-color: white;
+    color: black;
+}
+
+.reservationsnav a {
+    margin-left: 0.2cm;
+    margin-top: -1cm ;
+
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials {
+    position: absolute;
+    color: white;
+    margin-left: 9cm;
+    margin-top: -37cm;
+    position: fixed;
+}
+
+.whatsappicon {
+    position: absolute;
+    color: white;
+    border: solid 1px;
+    background-color: white;
+    margin-top: -25cm;
+    margin-left: 9cm;
+    border-radius: 50%;
+    position: fixed;
+}
+}
+
+@media only screen and (min-width: 431px) and (max-width:820px){
+body{
+    overflow: inherit;
+    
+    
+}
+.pavilion{
+    flex-direction: column;
+}
+.pavilion img{
+    width: 70vh;
+    height:70vh
+}
+.logoimage{
+    margin-top: -40cm;
+    
+    margin-left: -1cm;
+   }
+   .logoimage img{
+    height: 10vh;
+   }
+   #dot{
+    height:240vh
+   }
+   .navigation {
+    position: absolute;
+    display: flex;
+    border: solid 2px;
+    margin-top: -29cm;
+    gap: 0.3cm;
+    margin-left: 0.5cm;
+    background-color: black;
+    height: 2cm;
+    width: 20cm;
+    border-radius: 1cm;
+    position: fixed;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding-top: 2.5%;
+    padding-left: 2%;
+}
+
+.navigation a:hover {
+    color: grey;
+}
+
+#timeicon {
+    position: relative;
+
+}
+
+.reservationsnav {
+    padding-top: 2.5%;
+    border: solid 2px;
+    background-color: grey;
+    width: 4cm;
+    border-radius: 1cm;
+    height: 0.7cm;
+    margin-top: 0.2cm;
+}
+
+.reservationsnav:hover {
+    background-color: white;
+    color: black;
+}
+
+.reservationsnav a {
+    margin-left: 0.2cm;
+    margin-top: -1cm ;
+
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials {
+    position: absolute;
+    color: white;
+    margin-left: 19cm;
+    margin-top: -25cm;
+    position: fixed;
+}
+
+.whatsappicon {
+    position: absolute;
+    color: white;
+    border: solid 1px;
+    background-color: white;
+    margin-top: -10cm;
+    margin-left: 19cm;
+    border-radius: 50%;
+    position: fixed;
+}
+}
+
+@media only screen and (min-width: 821px) and (max-width:1280px) {
+    body{
+        font-family: poppins; 
+        font-size: 120%;
+        overflow: hidden;
+     }
+     .pavilion{
+         display: flex;
+     }
+     .accra_pavilion{ 
+         text-align: center;
+         
+     }
+     .accra_pavilion img{
+         height: 100vh;
+         width: 33vw;
+     }
+     .decor_text{
+         position: absolute;
+         margin-top: -15cm;
+         color: white;
+         margin-left: 0cm;
+         cursor: pointer;
+         font-size: 80%;
+     }
+     #decor_pax{
+         color: orange;
+     }
+     #pavilion{
+         color: grey;
+     }
+     .nairobi_pavilion{ 
+         text-align: center;
+        
+     }
+     .nairobi_pavilion img{
+         height: 100vh;
+         width: 33vw;
+     }
+     .zanzibar_pavilion{
+         
+         
+         width: 25vw;
+         background-repeat: no-repeat;
+         text-align: center;
+       
+         /* color: white; */
+     }
+     .zanzibar_pavilion img{
+         height: 100vh;
+         width: 33vw;
+        
+         /* margin-left: -8.1cm; */
+     }
+     #dot{
+         position: absolute;
+         overflow: visible;
+         margin-left: -1;
+         margin-top: -41.5%;
+         background: rgb(0, 0, 0);
+         background: rgba(0, 0, 0, 0.5);
+         width: 100vw;
+         height:1660px;
+         text-align: center;
+     }
+     .logoimage{
+         margin-left: -16cm;
+         margin-top: 2cm;
+     }
+     .logoimage img{
+         height: 20vh;
+     }
+     .navigation {
+         position: absolute;
+         display: flex;
+         border: solid 2px;
+         margin-top: -3cm;
+         gap: 0.8cm;
+         margin-left: 2cm;
+         background-color: black;
+         height: 2cm;
+         width: 25cm;
+         border-radius: 1cm;
+     }
+     
+     .navigation a {
+         text-decoration: none;
+         color: white;
+         padding-top: 2.5%;
+         padding-left: 2%;
+     }
+     
+     .navigation a:hover {
+         color: grey;
+     }
+     
+     #timeicon {
+         position: relative;
+     
+     }
+     
+     .reservationsnav {
+         padding: 2% 2% 2% 0%;
+         border: solid 2px;
+         background-color: grey;
+         width: 4cm;
+         border-radius: 1cm;
+         height: 0.7cm;
+        
+     }
+     
+     .reservationsnav:hover {
+         background-color: white;
+         color: black;
+     }
+     
+     .reservationsnav a {
+         margin-left: 0.2cm;
+         margin-top: -1cm ;
+     
+     
+     }
+     
+     
+     a {
+         text-decoration: none;
+         color: white;
+     }
+     
+     .socials {
+         position: absolute;
+         color: white;
+         margin-left: 30cm;
+         margin-top: -21cm;
+     }
+     
+     .whatsappicon {
+         position: absolute;
+         color: white;
+         border: solid 1px;
+         background-color: white;
+         margin-top: -3cm;
+         margin-left: 30cm;
+         border-radius: 50%;
+     }
+     
+     .hover_up {
+         position: relative;
+         display: block;
+         margin-top: 2.5%;
+     
+     }
+     
+     .hover_up-content {
+         display: inline-block;
+         position: absolute;
+         color: black;
+         background-color: white;
+         padding: 2%;
+         border: none;
+         width: 900%;
+         border-radius: 20px;
+         z-index: 1;
+         display: none;
+         top: -1200%;
+     
+     }
+     
+     .hover_up:hover .hover_up-content {
+         display: block;
+     }
+}
+    
+

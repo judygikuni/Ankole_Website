@@ -1,0 +1,547 @@
+@font-face {
+    font-family: poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: typewritter;
+    src: url(Fonts/JMH\ Typewriter.ttf);
+}
+body{
+    background-image: url(Images/Traditional\ drummer.webp);
+    background-size: 100vw 100vh;
+    font-family: typewritter;
+}
+#dot{
+    position: absolute;
+    overflow: visible;
+    margin-left: -1;
+    margin-top: -41.5%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height:2101px;
+    text-align: center;
+}
+.tukatike_text{
+    margin-left: 6cm;
+    margin-top: 6cm;
+    position: relative;
+    line-height: 0cm;
+    position: fixed;
+}
+.tukatike_text img{
+    height: 20vh;
+}
+#tukatike{
+    color: white;
+    margin-left: 1cm;
+    font-size: 150%;
+}
+#live_word{
+    margin-left: 1cm;
+    color: orangered;
+    font-size: 450%;
+}
+.live_poster{
+    display: flex;
+    position: relative;
+}
+.live_posters{
+    margin-left: 30cm;
+    
+}
+.fadhile_live{
+    display: flex;
+    margin-top: 2.5cm;
+    
+}
+.fadhile_text{
+    color: white;
+    margin-left: 1cm;
+    margin-top: 1cm;
+}
+.fadhile_text a{
+    cursor: pointer;
+}
+#fadhile_date{
+    color: orangered;
+}
+.mackilay_live{
+    display: flex;
+    margin-top: 2.5cm;
+}
+.fadhile_image{
+    transition: transform 1s ease-out;
+    
+}
+.fadhile_image img{
+    height: 35vh;
+}
+.fadhile_image:hover{
+    cursor: pointer;
+    transform: scale(1.1) ;
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    border: solid 2px;
+    margin-top: -15cm;
+    gap: 1cm;
+    margin-left: 2cm;
+    background-color: black;
+    height: 2cm;
+    width: 25cm;
+    border-radius: 1cm;
+    position: fixed;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding-top: 2.5%;
+    padding-left: 2%;
+}
+
+.navigation a:hover {
+    color: grey;
+}
+
+#timeicon {
+    position: relative;
+
+}
+
+.reservationsnav {
+    padding:2% 2% 2% 0%;
+    border: solid 2px;
+    background-color: grey;
+    width: 4cm;
+    border-radius: 1cm;
+    height: 0.7cm;
+    
+}
+
+.reservationsnav:hover {
+    background-color: white;
+    color: black;
+}
+
+.reservationsnav a {
+    margin-left: 0.7cm;
+
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials {
+    position: absolute;
+    color: white;
+    margin-left: 46cm;
+    margin-top: -15cm;
+    position: fixed;
+}
+
+.whatsappicon {
+    position: absolute;
+    color: white;
+    border: solid 1px;
+    background-color: white;
+    margin-top: 1cm;
+    margin-left: 47cm;
+    border-radius: 50%;
+    position: fixed;
+}
+
+.hover_up {
+    position: relative;
+    display: block;
+    margin-top: 2.5%;
+
+}
+
+.hover_up-content {
+    display: inline-block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    padding: 2%;
+    border: none;
+    width: 900%;
+    border-radius: 20px;
+    z-index: 1;
+    display: none;
+    top: -950%;
+
+}
+
+.hover_up:hover .hover_up-content {
+    display: block;
+}
+@media only screen and (max-width: 430px) {
+    body{
+        background-image: url(Images/Traditional\ drummer.webp);
+        background-size: 100vw 100vh;
+        font-family: typewritter;
+    }
+    #dot{
+        position: absolute;
+        overflow: visible;
+        margin-left: -1;
+        margin-top: -41.5%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+        height:2101px;
+        text-align: center;
+    }
+    .tukatike_text{
+        margin-left: 3cm;
+        margin-top: 4cm;
+        position: relative;
+        line-height: 0cm;
+        /* position: fixed; */
+    }
+    
+    #tukatike{
+        color: white;
+        margin-left: 1cm;
+        font-size: 150%;
+    }
+    
+    .live_poster{
+        /* display: flex; */
+        flex-direction: column;
+        position: relative;
+    }
+    .live_posters{
+        margin-left: 1cm;
+        margin-top: 1cm;
+        
+    }
+    .fadhile_live{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5cm;
+        
+    }
+    .fadhile_text{
+        color: white;
+        margin-left: 1cm;
+        margin-top: 1cm;
+    }
+    .fadhile_text a{
+        cursor: pointer;
+    }
+    #fadhile_date{
+        color: orangered;
+    }
+    .mackilay_live{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5cm;
+    }
+    .fadhile_image{
+        transition: transform 1s ease-out;
+        
+    }
+    .fadhile_image img{
+        height: 35vh;
+    }
+    .fadhile_image:hover{
+        cursor: pointer;
+        transform: scale(1.1) ;
+    }
+    
+    .navigation {
+        position: absolute;
+        display: flex;
+        border: solid 2px;
+        margin-top: -7cm;
+        gap: 1cm;
+        margin-left: 2cm;
+        background-color: black;
+        height: 2cm;
+        width: 25cm;
+        border-radius: 1cm;
+        /* position: fixed; */
+    }
+    
+    .navigation a {
+        text-decoration: none;
+        color: white;
+        padding-top: 2.5%;
+        padding-left: 2%;
+    }
+    
+    .navigation a:hover {
+        color: grey;
+    }
+    
+    #timeicon {
+        position: relative;
+    
+    }
+    
+    .reservationsnav {
+        padding:2% 2% 2% 0%;
+        border: solid 2px;
+        background-color: grey;
+        width: 4cm;
+        border-radius: 1cm;
+        height: 0.7cm;
+        
+    }
+    
+    .reservationsnav:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    .reservationsnav a {
+        margin-left: 0.7cm;
+    
+    
+    }
+    
+    
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .socials {
+        position: absolute;
+        color: white;
+        margin-left: 46cm;
+        margin-top: -15cm;
+        position: fixed;
+    }
+    
+    .whatsappicon {
+        position: absolute;
+        color: white;
+        border: solid 1px;
+        background-color: white;
+        margin-top: 1cm;
+        margin-left: 47cm;
+        border-radius: 50%;
+        position: fixed;
+    }
+    
+    .hover_up {
+        position: relative;
+        display: block;
+        margin-top: 2.5%;
+    
+    }
+    
+    .hover_up-content {
+        display: inline-block;
+        position: absolute;
+        color: black;
+        background-color: white;
+        padding: 2%;
+        border: none;
+        width: 900%;
+        border-radius: 20px;
+        z-index: 1;
+        display: none;
+        top: -950%;
+    
+    }
+    
+    .hover_up:hover .hover_up-content {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 431px) and (max-width:820px) {
+    body{
+        background-image: url(Images/Traditional\ drummer.webp);
+        background-size: 100vw 100vh;
+        font-family: typewritter;
+    }
+    #dot{
+        position: absolute;
+        overflow: visible;
+        margin-left: -1;
+        margin-top: -41.5%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+        height:2101px;
+        text-align: center;
+    }
+    .tukatike_text{
+        margin-left: 6cm;
+        margin-top: 6cm;
+        position: relative;
+        line-height: 0cm;
+        /* position: fixed; */
+    }
+    .tukatike_text img{
+        height: 20vh;
+    }
+    #tukatike{
+        color: white;
+        margin-left: 1cm;
+        font-size: 150%;
+    }
+    #live_word{
+        margin-left: 1cm;
+        color: orangered;
+        font-size: 450%;
+    }
+    .live_poster{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .live_posters{
+        margin-left: 3cm;
+        margin-top: 2cm;
+        
+    }
+    .fadhile_live{
+        display: flex;
+        margin-top: 2.5cm;
+        
+    }
+    .fadhile_text{
+        color: white;
+        margin-left: 1cm;
+        margin-top: 1cm;
+    }
+    .fadhile_text a{
+        cursor: pointer;
+    }
+    #fadhile_date{
+        color: orangered;
+    }
+    .mackilay_live{
+        display: flex;
+        margin-top: 2.5cm;
+    }
+    .fadhile_image{
+        transition: transform 1s ease-out;
+        
+    }
+    .fadhile_image img{
+        height: 35vh;
+    }
+    .fadhile_image:hover{
+        cursor: pointer;
+        transform: scale(1.1) ;
+    }
+    
+    .navigation {
+        position: absolute;
+        display: flex;
+        border: solid 2px;
+        margin-top: -15cm;
+        gap: 1cm;
+        margin-left: 2cm;
+        background-color: black;
+        height: 2cm;
+        width: 25cm;
+        border-radius: 1cm;
+        position: fixed;
+    }
+    
+    .navigation a {
+        text-decoration: none;
+        color: white;
+        padding-top: 2.5%;
+        padding-left: 2%;
+    }
+    
+    .navigation a:hover {
+        color: grey;
+    }
+    
+    #timeicon {
+        position: relative;
+    
+    }
+    
+    .reservationsnav {
+        padding:2% 2% 2% 0%;
+        border: solid 2px;
+        background-color: grey;
+        width: 4cm;
+        border-radius: 1cm;
+        height: 0.7cm;
+        
+    }
+    
+    .reservationsnav:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    .reservationsnav a {
+        margin-left: 0.7cm;
+    
+    
+    }
+    
+    
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .socials {
+        position: absolute;
+        color: white;
+        margin-left: 46cm;
+        margin-top: -15cm;
+        position: fixed;
+    }
+    
+    .whatsappicon {
+        position: absolute;
+        color: white;
+        border: solid 1px;
+        background-color: white;
+        margin-top: 1cm;
+        margin-left: 47cm;
+        border-radius: 50%;
+        position: fixed;
+    }
+    
+    .hover_up {
+        position: relative;
+        display: block;
+        margin-top: 2.5%;
+    
+    }
+    
+    .hover_up-content {
+        display: inline-block;
+        position: absolute;
+        color: black;
+        background-color: white;
+        padding: 2%;
+        border: none;
+        width: 900%;
+        border-radius: 20px;
+        z-index: 1;
+        display: none;
+        top: -950%;
+    
+    }
+    
+    .hover_up:hover .hover_up-content {
+        display: block;
+    }
+}

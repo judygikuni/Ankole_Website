@@ -1,0 +1,522 @@
+@font-face {
+    font-family: poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+body{
+    font-family: poppins;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.Menu{
+    display: flex;
+}
+
+.menu_text{
+    position: absolute;
+    margin-top: -15cm;
+    color: white;
+   
+    right: 25%;
+    line-height: 3vh;
+    
+    
+}
+.menu_textkaribu{
+    position: absolute;
+    margin-top: -15cm;
+    color: white;
+    left: 25%;
+    line-height: 3vh;
+    
+}
+#explore{
+    font-size: 50%;
+}
+.menu_textkaribu a{
+    text-decoration: none;
+    color: white;
+    font-size: 250%;
+}
+.menu_text a{
+    text-decoration: none;
+    color: white;
+    font-size: 250%;
+}
+.Kitisuru_image img{
+    width: 50vw;
+    height: 100vh;
+}
+.kilimani_image img{
+    width: 50vw;
+    height: 100vh;
+}
+#welcomemessage{
+    color: orangered;
+    font-size: 150%;
+}
+.ankolelogo img{
+    position: absolute;
+    margin-top: -23cm;
+    margin-right: 3cm;
+    left: 41%;
+}
+.navigation {
+    position: absolute;
+    display: flex;
+    border: solid 2px;
+    margin-top: -4cm;
+    gap: 1cm;
+    margin-left: 14cm;
+    background-color: black;
+    height: 2cm;
+    width: 25cm;
+    border-radius: 1cm;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding-top: 2.5%;
+    padding-left: 2%;
+}
+
+.navigation a:hover {
+    color: grey;
+}
+
+#timeicon {
+    position: relative;
+
+}
+
+.reservationsnav {
+    padding: 2% 2% 2% 0%;
+    border: solid 2px;
+    background-color: grey;
+    width: 4cm;
+    border-radius: 1cm;
+    height: 0.7cm;
+   
+}
+
+.reservationsnav:hover {
+    background-color: white;
+    color: black;
+}
+
+.reservationsnav a {
+    margin-left: 0.7cm;
+
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hover_up {
+    position: relative;
+    display: block;
+    margin-top: 2.5%;
+
+}
+
+.hover_up-content {
+    display: inline-block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    padding: 2%;
+    border: none;
+    width: 900%;
+    border-radius: 20px;
+    z-index: 1;
+    display: none;
+    top: -950%;
+
+}
+
+.hover_up:hover .hover_up-content {
+    display: block;
+}
+
+
+/* Kitisiru Menu */
+@font-face {
+    font-family:JMHFont ;
+    src: url(Fonts/JMH\ Typewriter.ttf);
+}
+
+.kitisiruimagemenu{
+    display: flex;
+}
+.kitisirumenuimage img{
+    width: 50vw;
+    height: 100vh;
+
+}
+.text_menu{
+    position: absolute;
+    margin-top: -15cm;
+    color: white;
+    left: 10cm;
+    line-height: 0.5;
+    
+    /* font-size: 350%; */
+}
+#kitisurutext{
+    color: orangered;
+    font-size: 500%;
+}
+#menutext{
+    font-size: 200%;
+    margin-top: 1.5cm;
+    text-align: center;
+}
+.ankolelogos{
+    position: absolute;
+    margin-top: -20cm;
+
+
+}
+.ankolelogos img{
+    height: 20vh;
+    margin-left: 1cm;
+}
+.menunavigation{
+    display: flex;
+    gap: 1cm;
+    margin-top: -0.5cm;
+    margin-left:8cm ;
+    color: white;
+    position: fixed;
+    font-size: 120%;
+    
+}
+.menunavigation a:hover{
+    color: rgb(121, 121, 9);
+}
+.mainmenu{
+    border: solid 1px;
+    width: 100vw;
+    height: 101.5vh;
+    background-color: black;
+    overflow: scroll;
+
+}
+.mainbreakfast{
+    margin-left: 1cm;
+}
+.breakfastmenu{
+    color: white;
+    margin-top: 3cm;
+    
+    font-size: 100%;
+}
+#breakfastbeverage{
+    color: orangered;
+    font-size: 130%;
+     
+}
+#dotted{
+    font-weight: bolder;
+}
+#breakfastmainmenu{
+    color: white;
+    display: flex;
+    
+    font-size: 100%;
+
+}
+.breakfastprices{
+    margin-left: 15cm;
+    
+}
+.ankolebigbreakefast{
+    display: flex;
+    margin-top: 1cm;
+    
+}
+.ankolelogo_bigmenu img{
+    height: 15vh;
+}
+.ankolebigbreakefast_text{
+    color: white;
+    margin-left: 1cm;
+}
+.bigbreakfast_price{
+    color: white;
+    margin-left: 2.3cm;
+}
+.hashbrowns{
+    display: flex;
+    margin-top: 1cm;
+}
+.hashbrowns_price{
+    color: white;
+    margin-left: 9cm;
+    margin-top: 1cm;
+}
+.hashbrowns_prices{
+    margin-left: 17cm;
+    margin-top: -1.5cm;
+}
+#foodmain_menu{
+    margin-top: 3cm;
+}
+.soups_food{
+    display: flex;
+    color: white;
+}
+.spicy_mushroom{
+    display: flex;
+    color: white;
+}
+#food_text{
+    color: white;
+}
+#soup_text{
+    color: orangered;
+
+}
+.soup_prices{
+    margin-left: 13cm;
+}
+.spicy_prices{
+    margin-left:12cm ;
+}
+.beef_thai{
+    display: flex;
+    color: white;
+}
+.ankolelogosalad img{
+   height: 10vh;
+   margin-top: 0.8cm;
+}
+.thai_salad{
+    margin-left: 1cm;
+}
+.thaisalad_price{
+    margin-left: 5cm;
+}
+.keenwa_price{
+    margin-left: 8cm;
+}
+.chickenbacon_price{
+    margin-left: 6.5cm;
+}
+.greeksalad{
+    color: white;
+    margin-left: 1cm;
+}
+.greeksalad_price{
+    margin-left: 2cm;
+}
+.drinks_text{
+    color: white;
+    display: flex;
+}
+#drinks{
+    color: white;
+}
+#fresh_juice{
+    color: orangered;
+}
+.fruits_menu{
+    margin-top: 2cm;
+}
+.price_fruits{
+    margin-left: 17cm;
+}
+
+.navigation_two {
+    position: absolute;
+    display: flex;
+    border: solid 2px;
+    margin-top: 19cm;
+    gap: 1cm;
+    margin-left: 1cm;
+    background-color: black;
+    height: 2cm;
+    width: 25cm;
+    border-radius: 1cm;
+   
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 2% 2% 2% 0%;
+    
+    
+}
+
+.navigation a:hover {
+    color: grey;
+}
+
+#timeicon {
+    position: relative;
+    
+
+}
+
+.reservationsnav {
+    padding:2% 2% 2% 0%;
+    border: solid 2px;
+    background-color: grey;
+    width: 4cm;
+    border-radius: 1cm;
+    height: 0.7cm;
+    /* margin-top: 0.3cm; */
+}
+
+.reservationsnav:hover {
+    background-color: white;
+    color: black;
+}
+
+.reservationsnav a {
+    margin-left: 0.7cm;
+
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 430px) {
+    body{
+        overflow: visible;
+    }
+    .Menu{
+        display: block;
+    }
+    .Kitisuru_image img{
+        width: 100vw;
+        height: 70vh;
+    }
+    .kilimani_image img{
+        width: 100vw;
+        height: 70vh;
+    }
+    .ankolelogos{
+        /* position: absolute; */
+        margin-top: -9cm;
+    
+    }
+    .ankolelogos img{
+        height: 2vh;
+    }
+    .navigation {
+        position: absolute;
+        display: flex;
+        border: solid 2px;
+        margin-top: -22cm;
+        gap: 0cm;
+        margin-left: 1cm;
+        background-color: black;
+        height: 1.3cm;
+        width: 9cm;
+        border-radius: 1cm;
+        font-size: 50%;
+        
+    }
+    #menu_logo{
+        height: 5vh;
+        margin-top: -33cm;
+    }
+
+
+
+}
+@media only screen and (min-width: 431px) and (max-width:820px) {
+    body{
+        overflow: visible;
+    }
+
+    .Menu{
+        display: block;
+    }
+.Kitisuru_image img{
+    width: 100vw;
+    height: 100vh;
+}
+.kilimani_image img{
+    width: 100vw;
+    height: 100vh;
+}
+.navigation {
+    position: absolute;
+    display: flex;
+    border: solid 2px;
+    margin-top: -35cm;
+    gap: 0cm;
+    margin-left: 2cm;
+    background-color: black;
+    height: 2cm;
+    width: 16cm;
+    border-radius: 1cm;
+    position: fixed;
+}
+.menu_text{
+    margin-left: 1cm;
+}
+
+.ankolelogo img{
+    position: absolute;
+    margin-top: -58cm;
+    margin-right: 7cm;
+    left: 30%;
+    position: fixed;
+}
+}
+
+@media only screen and (min-width: 821px) and (max-width:1280px) {
+    body{
+        overflow: visible;
+    }
+
+    .Menu{
+        display: flex;
+    }
+.Kitisuru_image img{
+    width: 50vw;
+    height: 100vh;
+}
+.kilimani_image img{
+    width: 50vw;
+    height: 100vh;
+}
+.navigation {
+    position: absolute;
+    display: flex;
+    border: solid 2px;
+    margin-top: -3cm;
+    gap: 1cm;
+    margin-left: 4cm;
+    background-color: black;
+    height: 2cm;
+    width: 25cm;
+    border-radius: 1cm;
+    position: fixed;
+}
+.menu_text{
+    margin-left: 1cm;
+}
+
+.ankolelogo img{
+    position: absolute;
+    margin-top: -21cm;
+    margin-right: 10cm;
+    left: 36%;
+    position: fixed;
+    height: 30vh;
+}
+}
