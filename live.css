@@ -189,6 +189,7 @@ a {
         background-image: url(Images/Traditional\ drummer.webp);
         background-size: 100vw 100vh;
         font-family: typewritter;
+        overflow: hidden;
     }
     #dot{
         position: absolute;
@@ -262,14 +263,16 @@ a {
     .navigation {
         position: absolute;
         display: flex;
+        flex-direction: column;
         border: solid 2px;
-        margin-top: -7cm;
+        margin-top: -63cm;
         gap: 1cm;
-        margin-left: 2cm;
+        margin-left: 1cm;
         background-color: black;
-        height: 2cm;
-        width: 25cm;
+        height: 13cm;
+        width: 2.5cm;
         border-radius: 1cm;
+        font-size: 50%;
         /* position: fixed; */
     }
     
@@ -293,7 +296,7 @@ a {
         padding:2% 2% 2% 0%;
         border: solid 2px;
         background-color: grey;
-        width: 4cm;
+        width: 2.5cm;
         border-radius: 1cm;
         height: 0.7cm;
         
@@ -320,7 +323,7 @@ a {
     .socials {
         position: absolute;
         color: white;
-        margin-left: 46cm;
+        margin-left: 4cm;
         margin-top: -15cm;
         position: fixed;
     }
@@ -330,8 +333,8 @@ a {
         color: white;
         border: solid 1px;
         background-color: white;
-        margin-top: 1cm;
-        margin-left: 47cm;
+        margin-top: -1cm;
+        margin-left: 4cm;
         border-radius: 50%;
         position: fixed;
     }

@@ -212,6 +212,7 @@ a {
         width: 20vw;
         height: 35vh;
         padding: 1cm;
+        margin-left: -1cm;
         
     }
     .kitisiru_address a{
@@ -239,12 +240,12 @@ a {
         border: solid 2px;
         margin-top: 19cm;
         gap: 0cm;
-        margin-left: -0cm;
+        margin-left: -0.5cm;
         background-color: black;
         height: 2cm;
-        width: 12cm;
+        width: 9cm;
         border-radius: 1cm;
-        font-size: 60%;
+        font-size: 50%;
     }
 
     #dot{
@@ -254,7 +255,7 @@ a {
         margin-top: -41.5%;
         background: rgb(0, 0, 0);
         background: rgba(0, 0, 0, 0.5);
-        width: 100vw;
+        width: 98vw;
         height:1000px;
         text-align: center;
     }
@@ -266,7 +267,24 @@ a {
     border: solid 1px;
     background-color: white;
     margin-top: 17cm;
-    margin-left: 9cm;
+    margin-left: 7cm;
     border-radius: 50%;
+}
+
+.reservationsnav {
+    padding: 2% 2% 2% 0%;
+    border: solid 2px;
+    background-color: grey;
+    width: 2cm;
+    border-radius: 1cm;
+    height: 0.7cm;
+   
+}
+
+.socials {
+    position: absolute;
+    color: white;
+    margin-left: 1cm;
+    margin-top: 1cm;
 }
 }  
